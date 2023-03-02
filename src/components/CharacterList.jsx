@@ -20,12 +20,7 @@ function NavPage({ page, setPage }) {
           Page: {page - 1}
         </button>
       )}
-      {/* <button
-        className="btn btn-primary btn-sm"
-        onClick={() => setPage(page - 1)}
-      >
-        Page: {page - 1}
-      </button> */}
+
       <p>Page: {page}</p>
       <button
         className="btn btn-primary btn-sm"
